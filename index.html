@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ENYLOA — Baby Companion User Guides</title>
+<meta name="description" content="Learn about ENYLOA, known as Baby Companion in its V1 documentation, and read the user guides in French, English, or Arabic.">
+<style>
+:root { color-scheme: light; background: #F8F5EF; color: #13273A; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, "DejaVu Sans", sans-serif; font-size: 1rem;
+  line-height: 1.75; text-align: start; overflow-wrap: anywhere; }
+main { max-width: 56rem; margin: 2rem auto; padding: clamp(1rem, 4vw, 3rem);
+  background: #FFFDF9; border: 1px solid #DDD7CE; border-radius: 1.25rem; }
+h1, h2 { line-height: 1.35; text-wrap: pretty; }
+h1 { font-size: clamp(1.7rem, 5vw, 2.3rem); letter-spacing: .08em;
+  margin-block: 0 .35rem; }
+.product-name { color: #456C55; font-size: 1.25rem; margin-block: 0 1.25rem; }
+p { margin-block: .75rem; }
+.intro { max-width: 42rem; font-size: 1.1rem; }
+.context, .guide-description, footer { color: #52616B; }
+.context { max-width: 42rem; font-size: .95rem; }
+nav { margin-block-start: 2.5rem; padding-block-start: 1.5rem;
+  border-block-start: 1px solid #DDD7CE; }
+h2 { color: #456C55; font-size: 1.4rem; margin-block: 0 .5rem; }
+.guides { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem;
+  list-style: none; padding: 0; margin-block: 1.25rem 0; }
+.guides li { min-width: 0; }
+.guide { display: flex; flex-direction: column; justify-content: center;
+  height: 100%; min-height: 7rem; padding: 1.25rem;
+  color: #13273A; background: #FFFDF9; border: 1px solid #DDD7CE;
+  border-radius: .8rem; text-decoration: none; }
+.guide:hover { background: #EEF5EF; border-color: #456C55; }
+.guide:focus-visible { outline: 3px solid #456C55; outline-offset: 4px;
+  background: #EEF5EF; }
+.guide-language { color: #456C55; font-size: 1.25rem; font-weight: bold;
+  text-decoration: underline; text-underline-offset: .2em; }
+.guide-description { margin-block-start: .25rem; }
+.guide[dir="rtl"] { line-height: 1.9; }
+footer { margin-block-start: 2.5rem; padding-block-start: 1.25rem;
+  border-block-start: 1px solid #DDD7CE; font-size: .875rem; }
+footer p { margin: 0; }
+@media (min-width: 44rem) {
+  .guides { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 40rem) {
+  main { margin: .75rem; padding: 1.1rem; border-radius: .8rem; }
+}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>ENYLOA</h1>
+    <p class="product-name">Baby Companion</p>
+    <p class="intro">A gentle companion for parents to organize food diversification, health follow-up, growth, and everyday baby information.</p>
+    <p class="context">Baby Companion brings together ENYLOA’s V1 guidance to help parents organize everyday baby care and follow-up.</p>
+  </header>
+  <nav aria-labelledby="guides-heading">
+    <h2 id="guides-heading">User guides</h2>
+    <p>Choose your preferred language.</p>
+    <ul class="guides">
+      <li>
+        <a class="guide" href="./fr/" lang="fr" hreflang="fr">
+          <span class="guide-language">Français</span>
+          <span class="guide-description">Guide d’utilisation</span>
+        </a>
+      </li>
+      <li>
+        <a class="guide" href="./en/" lang="en" hreflang="en">
+          <span class="guide-language">English</span>
+          <span class="guide-description">User Guide</span>
+        </a>
+      </li>
+      <li>
+        <a class="guide" href="./ar/" lang="ar" hreflang="ar" dir="rtl">
+          <span class="guide-language">العربية</span>
+          <span class="guide-description">دليل المستخدم</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <footer>
+    <p>ENYLOA / Baby Companion · V1 user documentation</p>
+  </footer>
+</main>
+</body>
+</html>
